@@ -1,0 +1,32 @@
+
+.draggable-widget {
+    position: absolute;
+    background-color: transparent;
+    border: solid 1px black;
+    cursor: move;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    user-select: none;
+    z-index: 9999;
+    background-color: seagreen;
+    opacity: 0.5;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .draggable-widget.dragging {
+    opacity: 0.5; /* Adjust the opacity when dragging if desired */
+    background-color: rgb(40, 211, 154);
+  }
+  .widget-content {
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 16px;
+    opacity: 0.5;
+  }
+  .draggable-widget:hover{
+    opacity: 1;
+  }
+  
